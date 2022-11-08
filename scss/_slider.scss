@@ -8,7 +8,7 @@
     &-slider{
         background: rgba(125, 125, 125, 0.662);
         &__slides{
-            width: 500%;
+            width: 400%;
              display: flex;
             justify-content: center;
             align-items: center;
@@ -17,14 +17,12 @@
                 display: none;
             }
             &_slide{
-                 border: solid #0c0c0c 1px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 &_block{
-                    background: rgba(11, 228, 40, 0.333);
                     height:100vh;
-                    width: 100vw;
+                    width: 1920px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -56,7 +54,7 @@
             }
         }
         &__auto{
-             position: absolute;
+            position: absolute;
             width: 100vw;
             margin-top: -50px;
             display: flex;
@@ -79,14 +77,12 @@
     margin-left: 0;
 }
 #radio2:checked ~ .first{
-    margin-left: -40%;
+    margin-left: -20%;
 }
 #radio3:checked ~ .first{
-    margin-left: -80%;
+    margin-left: -40%;
 }
 #radio4:checked ~ .first{
-    margin-left: -120%;
+    margin-left: -60%;
 }
-#radio5:checked ~ .first{
-    margin-left: -160%;
-}
+
